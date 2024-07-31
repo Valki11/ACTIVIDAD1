@@ -300,8 +300,8 @@ DefaultTableModel tbl_Modelo;
             cliente.setFecha_Nacimiento(txt_fecha_nacimiento.getText());
             
             cliente.crear();
-            tblModelo.addRow(cliente.crear());
-            tbl_clientes.setModel(tblModelo);
+            tblforn.addRow(cliente.crear());
+            tbl_clientes.setforn(tblforn);
         
     }//GEN-LAST:event_btn_guardarActionPerformed
 
